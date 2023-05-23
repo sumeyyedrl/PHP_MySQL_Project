@@ -34,7 +34,7 @@ Yetkililer bütün kullanıcıları ve yapılan bütün bağışları görüntü
 - Uygulamayı açıp Apache ve MySQL modüllerini çalışır hale getirmelisiniz. Port çakışması gibi durumlarda bu modüller çalışamayacakır ve uygulama uyarı verecektir. Bu gibi durumlara dikkat edin ve config butonuyla gerekli ayarları yapın.
 - Apache modülünün çalıştığı portu localhost:... şeklinde ifadenin sonuna ekleyin ve tarayıcınızda aratın.
 - Ana sayfaya ulaşmış olacaksınız.
-- 
+
 
    Veri tabanı gerekli ayarlamaları yapmak için ise şu adımları izlemelisiniz;
 - Ana sayfaya ulaştığınızda adres çubuğundaki 'index.html' ifadesini silip 'phpmyadmin' ifadesini eklemelisiniz. 
