@@ -35,7 +35,7 @@ Yetkililer bütün kullanıcıları ve yapılan bütün bağışları görüntü
    Veri tabanı gerekli ayarlamaları yapmak için ise şu adımları izlemelisiniz;
 - Ana sayfaya ulaştığınızda adres çubuğundaki 'index.html' ifadesini silip 'phpmyadmin' ifadesini eklemelisiniz. 
 - Açılan sayfanın üst kısmında SQL ifadesine tıklayıp mysql.sql isimli dosyanın içindeki kodu oraya yapıştırın ve çalıştırın.
-- Ardından mysql.php isimli dosyada ilgili değişkenlere şu değişiklikleri uygulayın;
+- Ardından [mysql.php](mysql.php) isimli dosyada ilgili değişkenlere şu değişiklikleri uygulayın;
 
         $db_host="localhost";
         $db_user="root";
