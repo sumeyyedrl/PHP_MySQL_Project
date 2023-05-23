@@ -3,6 +3,7 @@
    Bu proje Web Tabanlı Programlama dersi kapsamında verilmiştir. Bu projede PHP, MySQL ve HTML kullanılarak bir websitesi tasarlamamız istenmiştir. Tasarlanan web sitesinde elde edilen verilerin saklanması, bu verilerin çekilmesi, düzenlenmesi ve silinmesi işlemlerini barındırmaktadır. 
 
    Tasarlanan websitesine [linke](http://donationwebsite.great-site.net/) tıklayarak ulaşabilirsiniz.
+   
 
 ## Proje Tanıtımı
 
@@ -19,7 +20,9 @@ Yetkililer bütün kullanıcıları ve yapılan bütün bağışları görüntü
 
 ![Ekran görüntüsü 2023-05-23 203535](https://github.com/sumeyyedrl/PHP_MySQL_Project/assets/92041818/ba6ea032-ec5f-40e0-a29c-902ba61e7f73)
 
+
    Proje ile ilgili detaylı youtube tanıtım videosuna [buradan](https://youtu.be/OlOrQ_3kKy4) ulaşabilirsiniz! 
+   
 
 ### Gereklilikler
 
@@ -31,10 +34,11 @@ Yetkililer bütün kullanıcıları ve yapılan bütün bağışları görüntü
 - Uygulamayı açıp Apache ve MySQL modüllerini çalışır hale getirmelisiniz. Port çakışması gibi durumlarda bu modüller çalışamayacakır ve uygulama uyarı verecektir. Bu gibi durumlara dikkat edin ve config butonuyla gerekli ayarları yapın.
 - Apache modülünün çalıştığı portu localhost:... şeklinde ifadenin sonuna ekleyin ve tarayıcınızda aratın.
 - Ana sayfaya ulaşmış olacaksınız.
+- 
 
    Veri tabanı gerekli ayarlamaları yapmak için ise şu adımları izlemelisiniz;
 - Ana sayfaya ulaştığınızda adres çubuğundaki 'index.html' ifadesini silip 'phpmyadmin' ifadesini eklemelisiniz. 
-- Açılan sayfanın üst kısmında SQL ifadesine tıklayıp mysql.sql isimli dosyanın içindeki kodu oraya yapıştırın ve çalıştırın.
+- Açılan sayfanın üst kısmında SQL ifadesine tıklayıp [mysql.sql](mysql.sql) isimli dosyanın içindeki kodu oraya yapıştırın ve çalıştırın.
 - Ardından [mysql.php](mysql.php) isimli dosyada ilgili değişkenlere şu değişiklikleri uygulayın;
 
         $db_host="localhost";
@@ -43,6 +47,7 @@ Yetkililer bütün kullanıcıları ve yapılan bütün bağışları görüntü
         $db_name="donation";
  
  - Tebrikler! Projeyi kendi bilgisayarınızda test etmeye hazırsınız!
+
 
 ## Kullanılan Programlar
 
